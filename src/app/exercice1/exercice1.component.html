@@ -1,0 +1,8 @@
+<h1>{{ Title }}</h1>
+
+<input
+  [type]="input_type"
+  [value]="value"
+  (input)="value = $event.target.value"
+/>
+<p>{{ value }}</p>
